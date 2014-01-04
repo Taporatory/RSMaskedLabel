@@ -75,7 +75,7 @@
     // this is where you do whatever fancy drawing you want to do!
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    [[UIColor whiteColor] set];
+    [[self backgroundColor] set];
     CGContextFillRect(context, rect);
 }
 
